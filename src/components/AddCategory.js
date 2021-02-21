@@ -19,8 +19,14 @@ export const AddCategory = ({ setCategories }) => {
 
     }
 
+            //estaba en el return pero no hay forma de comentarlo
+            // <p>
+            //     {/* este p fue solo para testing, xq no queremos que aparezca lo q escribimos en el input como un p */}
+            //     {inputValue} 
+            // </p>
     return (
         <form onSubmit={ handleSubmit }>
+            
             <input 
                 type="text"
                 value={ inputValue }
